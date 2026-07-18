@@ -1475,3 +1475,50 @@ img{
     50%{transform:translateY(-8px);}
     100%{transform:translateY(0);}
 }
+/* ================= CLIENT LOGO SLIDER ================= */
+
+.logo-slider{
+    overflow:hidden;
+    width:100%;
+    position:relative;
+    margin-top:40px;
+    padding:20px 0;
+}
+
+.logo-track{
+    display:flex;
+    align-items:center;
+    width:max-content;
+    animation:scroll 25s linear infinite;
+}
+
+.logo-slider:hover .logo-track{
+    animation-play-state:paused;
+}
+
+.logo-track img{
+    width:150px;
+    height:80px;
+    object-fit:contain;
+    margin:0 35px;
+    background:#fff;
+    padding:15px;
+    border-radius:12px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    transition:.3s;
+    filter:grayscale(100%);
+}
+
+.logo-track img:hover{
+    filter:grayscale(0%);
+    transform:translateY(-5px) scale(1.05);
+}
+
+@keyframes scroll{
+    from{
+        transform:translateX(0);
+    }
+    to{
+        transform:translateX(-50%);
+    }
+}
