@@ -1542,3 +1542,19 @@ img{
 .case-box strong{
     color:#111 !important;
 }
+.testimonial-img{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    object-fit:cover;
+    margin:0 auto 20px;
+    display:block;
+    border:3px solid #ddd;
+}
+
+.testimonial-card span{
+    display:block;
+    color:#777;
+    font-size:15px;
+    margin-top:8px;
+}
