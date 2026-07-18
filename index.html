@@ -663,7 +663,7 @@ Experience
 
 </div>
 
-<form action="https://formsubmit.co/94divya20@gmail.com" method="POST">
+<form action="https://formsubmit.co/ajax/94divya20@gmail.com" method="POST">
 
 <input type="hidden" name="_captcha" value="false">
 <input type="hidden" name="_subject" value="New Portfolio Inquiry">
@@ -737,6 +737,27 @@ AOS.init({
   
 <script src="js/script.js"></script>
 
+  <script>
+const form = document.querySelector("form");
+
+form.addEventListener("submit", async function(e) {
+    e.preventDefault();
+
+    const data = new FormData(form);
+
+    const response = await fetch(form.action, {
+        method: "POST",
+        body: data,
+        headers: {
+            "Accept": "application/json"
+        }
+    });
+
+    const result = await response.json();
+    alert(JSON.stringify(result));
+});
+</script>
+  
 </body>
 
 </html>
