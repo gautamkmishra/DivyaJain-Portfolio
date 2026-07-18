@@ -887,6 +887,7 @@ box-shadow:0 20px 50px rgba(0,0,0,.08);
 font-size:30px;
 margin-bottom:25px;
 font-family:'Playfair Display',serif;
+color :#111;
 }
 
 .case-box ul{
@@ -1521,4 +1522,23 @@ img{
     to{
         transform:translateX(-50%);
     }
+}
+
+/* Force Achievement colors */
+
+.case-box{
+    background:#fff !important;
+    color:#111 !important;
+}
+
+.case-box h3{
+    color:#111 !important;
+}
+
+.case-box li{
+    color:#555 !important;
+}
+
+.case-box strong{
+    color:#111 !important;
 }
