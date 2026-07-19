@@ -1591,3 +1591,10 @@ img{
 .meeting-btn:hover{
     transform:translateY(-3px);
 }
+
+.reply-time{
+    display:block;
+    margin-top:20px;
+    color:#a8a8a8;
+    font-size:14px;
+}
