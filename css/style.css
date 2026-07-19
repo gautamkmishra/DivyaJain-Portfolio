@@ -1659,3 +1659,15 @@ img{
 .contact-item a:hover{
     opacity:.7;
 }
+.footer-credit{
+    margin-top:12px;
+    font-size:14px;
+    color:#999;
+    text-align:center;
+    letter-spacing:0.5px;
+}
+
+.footer-credit:hover{
+    color:#d8b26e;
+    transition:0.3s;
+}
