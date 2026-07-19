@@ -1679,3 +1679,18 @@ img{
     transform: translateY(-12px);
     box-shadow: 0 20px 45px rgba(0,0,0,.15);
 }
+.hero-image img{
+    animation: floatImage 4s ease-in-out infinite;
+}
+
+@keyframes floatImage{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
