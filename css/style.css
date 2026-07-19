@@ -1598,3 +1598,40 @@ img{
     color:#a8a8a8;
     font-size:14px;
 }
+/* ===== Contact Information ===== */
+
+.contact-item{
+    margin-bottom:25px;
+    padding:18px;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:14px;
+    background:rgba(255,255,255,.03);
+    transition:.3s;
+}
+
+.contact-item:hover{
+    transform:translateY(-4px);
+    border-color:#d8b26e;
+}
+
+.contact-item h4{
+    color:#fff;
+    margin-bottom:10px;
+    font-size:18px;
+}
+
+.contact-item p,
+.contact-item span{
+    color:#cfcfcf;
+    line-height:1.8;
+}
+
+.contact-item a{
+    color:#d8b26e;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.contact-item a:hover{
+    color:#fff;
+}
