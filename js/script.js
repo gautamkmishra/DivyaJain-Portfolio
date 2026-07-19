@@ -383,36 +383,3 @@ year.textContent=new Date().getFullYear();
 }
 
 console.log("Portfolio Loaded Successfully 🚀");
-
-.meeting-card{
-    background:#151515;
-    padding:35px;
-    border-radius:18px;
-    text-align:center;
-    border:1px solid rgba(255,255,255,.08);
-}
-
-.meeting-card h3{
-    color:#fff;
-    margin-bottom:15px;
-}
-
-.meeting-card p{
-    color:#cfcfcf;
-    margin-bottom:25px;
-}
-
-.meeting-btn{
-    display:inline-block;
-    background:#fff;
-    color:#111;
-    padding:14px 28px;
-    border-radius:50px;
-    text-decoration:none;
-    font-weight:700;
-    transition:.3s;
-}
-
-.meeting-btn:hover{
-    transform:translateY(-3px);
-}
