@@ -1671,3 +1671,11 @@ img{
     color:#d8b26e;
     transition:0.3s;
 }
+.card{
+    transition: all .4s ease;
+}
+
+.card:hover{
+    transform: translateY(-12px);
+    box-shadow: 0 20px 45px rgba(0,0,0,.15);
+}
